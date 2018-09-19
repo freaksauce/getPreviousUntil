@@ -23,18 +23,18 @@ Given the following markup:
 ```
 
 ```
-import getnextuntil from 'getnextuntil'
+import getPreviousUntil from 'getPreviousUntil'
 
 var findMe = document.querySelector('#find-me');
 
 // Returns '<li class="skip-me">Item 4</li>'
-var prev = getPreviousSibling(findMe);
+var prev = getPreviousUntil(findMe);
 
 // Returns '<li class="stop-here">Item 2</li>'
-var prevStop = getPreviousSibling(findMe, '.stop-here');
+var prevStop = getPreviousUntil(findMe, '.stop-here');
 
 // Returns '<li>Item 3</li>'
-var prevSkip = getPreviousSibling(findMe, ':not(.skip-me)');
+var prevSkip = getPreviousUntil(findMe, ':not(.skip-me)');
 ```
 
 The `matches()` method was implemented inconsistently with vendor prefixes across many browsers for a while. You should [include a polyfill](https://vanillajstoolkit.com/polyfills/matches/) for it to make sure these work properly.

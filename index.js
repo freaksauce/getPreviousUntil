@@ -5,7 +5,7 @@
  * @param  {String} selector The selector to match against
  * @return {Array}           The siblings
  */
-var getPreviousUntil = function (elem, selector) {
+module.exports = function getPreviousUntil (elem, selector) {
 
 	// Setup siblings array and get previous sibling
 	var siblings = [];
