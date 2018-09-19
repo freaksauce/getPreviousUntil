@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/freaksauce/getPreviousUntil.svg?branch=master)](https://travis-ci.org/freaksauce/getPreviousUntil)
+
 # getPreviousUntil
 This is a packaged version of the [Chris Ferdinandi](https://gomakethings.com) utility function that gets all previous siblings of an element in the DOM until a selector is found.
 
