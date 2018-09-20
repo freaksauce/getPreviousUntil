@@ -1,6 +1,6 @@
 {
   "name": "getpreviousuntil",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Get all previous siblings of a DOM element until a selector is found",
   "repository": {
     "type": "git",
@@ -8,8 +8,16 @@
   },
   "main": "index.js",
   "keywords": [
-    "parents",
-    "dom"
+    "dom",
+    "window",
+    "document",
+    "element",
+    "selector",
+    "previousElementSibling",
+    "siblings",
+    "matches",
+    "array",
+    "push"
   ],
   "author": "Jon Bloomer",
   "license": "ISC",
